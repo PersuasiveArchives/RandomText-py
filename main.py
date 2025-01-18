@@ -18,6 +18,3 @@ if __name__ == "__main__":
     file_path = 'database.txt'  
     random_lines = get_random_lines_from_file(file_path, num_lines=5)
     
-    print("Randomly chosen lines:")
-    for line in random_lines:
-        print(line)
